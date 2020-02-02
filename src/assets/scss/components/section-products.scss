@@ -1,0 +1,64 @@
+.ba-section-products {
+  background-color: #f7f8f3;
+}
+
+.ba-card {
+  background-color: #ffffff;
+}
+
+.ba-product-title {
+  color: #1c1c1b;
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.ba-product {
+  text-align: center;
+  color: #1c1c1b;
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+
+  img {
+    align-items: center;
+  }
+}
+
+.ba-card-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-title {
+  color: #6e774a;
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 75px;
+  letter-spacing: 5.04px;
+}
+
+.accordion-content {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+}
+
+.ba-product-accordion {
+  li {
+	 border-bottom: 2px solid #eaedde;
+	 border-top: 2px solid #eaedde;
+	 margin-top: -2px;
+  }
+}
+   
