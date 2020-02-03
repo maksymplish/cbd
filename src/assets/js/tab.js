@@ -1,3 +1,4 @@
+import $ from 'jquery';
 $(".ba-card-item").not(":first").hide();
 $(".ba-tab").click(function () {
 	$(".ba-tab").removeClass("active").eq($(this).index()).addClass("active");

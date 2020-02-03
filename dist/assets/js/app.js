@@ -15549,9 +15549,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_slick_min_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/slick.min.js */ "./src/assets/js/lib/slick.min.js");
 /* harmony import */ var _lib_slick_min_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_lib_slick_min_js__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _tab__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tab */ "./src/assets/js/tab.js");
-/* harmony import */ var _tab__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_tab__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./slider */ "./src/assets/js/slider.js");
-/* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_slider__WEBPACK_IMPORTED_MODULE_5__);
 
  // Foundation JS relies on a global varaible. In ES6, all imports are hoisted
 // to the top of the file so if we used`import` to import Foundation,
@@ -16508,12 +16506,16 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*!*********************************!*\
   !*** ./src/assets/js/slider.js ***!
   \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 
 'use strick';
-
-$('.ba-slider').slick({
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('.ba-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
@@ -16526,13 +16528,18 @@ $('.ba-slider').slick({
 /*!******************************!*\
   !*** ./src/assets/js/tab.js ***!
   \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-$(".ba-card-item").not(":first").hide();
-$(".ba-tab").click(function () {
-  $(".ba-tab").removeClass("active").eq($(this).index()).addClass("active");
-  $(".ba-card-item").hide().eq($(this).index()).fadeIn();
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(".ba-card-item").not(":first").hide();
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(".ba-tab").click(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".ba-tab").removeClass("active").eq(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).index()).addClass("active");
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".ba-card-item").hide().eq(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).index()).fadeIn();
 }).eq(0).addClass("active");
 
 /***/ }),

@@ -1,3 +1,4 @@
+import $ from 'jquery';
 'use strick'
 
  $('.ba-slider').slick({
